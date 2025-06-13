@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-     <div className="relative w-full h-screen overflow-hidden">
+     <div className="relative h-screen overflow-hidden">
       <video src="/videos/automotive.224e7418884105595114.mp4" autoPlay muted loop playsInline
       className="absolute top-0 left-0 w-full h-full overflow-hidden"></video>
       <div className="relative z-10 flex font-semibold flex-col text-white justify-center text-center items-center h-full">

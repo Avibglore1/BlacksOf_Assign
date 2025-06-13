@@ -31,7 +31,7 @@ function ContactUs() {
     setForm({...form,[e.target.name]:e.target.value});
   }
   return(
-    <div className='min-h-screen bg-blue-600 text-white p-10 flex flex-col md:flex-row
+    <div className='min-h-screen bg-[#0067B1] text-white p-10 flex flex-col md:flex-row
     gap-12 justify-center items-center'>
         <div className='md:w-1/2 space-y-4'>
             <h2 className='text-4xl font-semibold'>Get in touch</h2>
