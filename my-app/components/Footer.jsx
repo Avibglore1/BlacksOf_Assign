@@ -2,14 +2,14 @@ import React from 'react'
 import Link from 'next/link'
 function Footer() {
   return (
-   <footer className='bg-gradient-to-t from-[#dce8f3] to-white text-gray-700 px-4 py-10'>
-    <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10'>
+   <footer className='bg-gradient-to-t  from-[#dce8f3] to-white text-gray-700 px-4 py-10'>
+    <div className='max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10'>
       <div className='col-span-1 flex flex-col items-start'>
         <img src="https://supreme-group.vercel.app/static/media/logo.68f5b8493efb88f7cd65756bf67a1f5b.svg" 
         alt="Supreme Group Logo" 
-        className='w-28' />
+        className='' />
       </div>
-      <div className='md:col-span-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm'>
+      <div className='md:col-span-4 grid grid-cols-2 md:grid-cols-4 gap-6 '>
         <div>
           <h4 className='font-bold mb-3 text-black'>APPLICATIONS</h4>
           <ul className='space-y-2'>
@@ -41,13 +41,11 @@ function Footer() {
             <li><Link href='#' className='hover:text-black'>Linkedin</Link></li>
           </ul>
         </div>
-       
       </div>
-      
     </div> 
-      <div className='mt-10  grid grid-cols-2  gap-4 text-sm text-gray-600'>
-        <p className='col-span-1'>©2024. All Rights Reserved.</p>
-        <p className='col-span-1'>Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.</p>
+      <div className='mt-10  flex justify-evenly  gap-4 text-sm text-gray-600'>
+        <p className=''>©2024. All Rights Reserved.</p>
+        <p className=''>Supreme House, 110, 16th Road, Chembur, Mumbai – 400071.</p>
       </div>
    </footer>
   )
